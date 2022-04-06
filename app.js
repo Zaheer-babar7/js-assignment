@@ -269,3 +269,154 @@
 // }else{
 //   alert("false")
 // }
+
+
+//q:6
+// var subject1 = +prompt("Marks in English")
+// var subject2 = +prompt("Marks in Math")
+// var subject3 = +prompt("Marks in Urdu")
+// var marksObtained = subject1 + subject2 + subject3
+// var totalMarks = 300;
+// var percentage = marksObtained/totalMarks*100;
+// alert("Your Percentage is " + percentage + "%")
+// if(percentage >= 80 && percentage <=100 ){
+//     alert("GRADE = A+ \nbrilliant")
+// }else if (percentage >= 70 && percentage <=80 ){
+//     alert("GRADE = A \nexelent")
+// }else if (percentage >= 60 && percentage <=70 ){
+//     alert("GRADE = B \nnice")
+// }else if (percentage >= 50 && percentage <=40 ){
+//     alert("GRADE = C \ngood")
+// }else if (percentage >= 40 && percentage <=30 ){
+//     alert("GRADE = D \npoor")
+// }else if (percentage >= 33 && percentage <=40 ){
+//     alert("GRADE = E \nneed improvement")
+// }else if (percentage <=33 ){
+//     alert("GRADE = FAIL \nwork hard")
+// }else {
+//     alert("Please give correct information")
+// }
+
+
+//q:7
+// var myNum = 6
+// var number = +prompt("Guess number (1 to 10)")
+// if (number == myNum ){
+//     alert("Bingo! Your answer is correct")
+// }else if ( number === 7 | number === 5){
+//     alert("Close enough")
+// }else {
+//     alert ("Wrong Answer")
+// }
+
+
+//q:8
+// var num = +prompt("enter num")
+// if (num / 2){
+//     alert("even")
+//     }
+//     else if(!num / 2){
+//         alert("old")
+//     }
+//     else{
+//         alert("empty")
+//     }
+
+
+//q:10
+//  var temperature = +prompt("Enter Temperature value ")
+//  if (temperature <= 10 ){
+//      alert("“OMG! Today’s weather is so Cool.")
+//  }
+//  else if ( temperature <= 20){
+//      alert("Today’s Weather is cool.")
+//  }
+//  if ( temperature <= 30){
+//      alert("The Weather today is Normal.")
+//  }
+//  if (temperature >= 40 && temperature <= 60){
+//      alert("It is too hot.")
+//  }
+//  else{
+//      alert("enter valid temperature point")
+//  }
+
+
+//q:11
+// var num1 = +prompt("Enter First Number");
+// var operator = prompt("Enter the Operator")
+// var num2 = +prompt("Enter Second Number");
+
+// if (operator == "+") {
+//     var sub = num1 + num2
+//     document.write(num1 + "+" + num2 + "=" + sub);
+// }else if (operator == "-") {
+//     var sub = num1 - num2
+//     document.write( num1 +"-"+ num2 +"="+ sub);
+// }else if (operator == "/") {
+//     var sub = num1 / num2
+//     document.write( num1 +"/"+ num2 +"="+ sub);
+// }else if (operator == "*") {
+//     var sub = num1 * num2
+//     document.write( num1 +"*"+ num2 +"="+ sub);
+// }else {
+//     document.write("Error");
+// }
+                   // CHAPTER NO 12 to 13
+
+
+//q:1
+// var input = prompt("Enter any character")
+// if(input.charCodeAt() >= 65 && input.charCodeAt() <= 90) {
+//     alert("It is an UpperCase Character")
+// }
+// else if(input.charCodeAt() >= 97 && input.charCodeAt() <= 122) {
+//     alert("It is a LowerCase Character")
+// }else {
+//     alert("It is a number")
+// }
+
+
+//q:2
+// var num1 = +prompt("enter 1st num")
+// var num2 = +prompt("enter 2nd num")
+// if(num1 <= num2){
+//     alert("1st num is small")
+// }
+// else if(num1 === num2){
+//     alert("both are equal")
+// }
+
+// else if(num1 >= num2){
+//     alert("1st num is large")
+// }
+
+// else{
+//     alert("incorrect")
+// }
+
+
+//q:5
+// var pas1 = prompt("enter password")
+// var pas2 = prompt("confirm password")
+
+// if(pas1 == pas2){
+//   alert("your password match")
+// }
+// else if (pas1 != pas2){
+//     alert("your password doesnot match")
+// }
+// else{
+//     alert("empty password")
+// }
+
+
+
+//q:6
+// var hour = 13;
+// if (hour < 18) {
+// alert("Good morniong")
+// }
+// else{
+// alert("Good evening")
+// }
